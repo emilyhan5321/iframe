@@ -14,7 +14,6 @@
 
 section {
   margin-bottom: 30%;
-  margin-right: 5%;
 
 }
 
@@ -33,10 +32,10 @@ iframe {
 .grid {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 8em 8em 8em 8em 8em 8em 8em 8em 8em 8em 8em 8em;
-
+  grid-template-rows: 8em 8em 8em 8em 8em 8em 8em 8em 8em 8em 8em 8em 8em;
   padding: 18px;
   border-style: dotted;
+  row-gap: 3%;
 
   grid-template-areas:
   "vogue vogue wiki wiki sorate"
@@ -46,14 +45,13 @@ iframe {
   "chaan chaan chaan damtuh damtuh"
   "ts ts te sorate sorate"
   "ts ts te sorate sorate"
-  "kettl kettl harney harney harney"
-  "kettl kettl harney harney harney"
+  "kettl kettl . harney harney"
+  "kettl kettl . harney harney"
   "smy sred sgreen sbrown smatcha"
   "smy sred sgreen sbrown smatcha"
   "tea hist yt ypl ymatcha"
   "box9 hist yt ypl ymatcha"
   "last last last last last";
-
 
 }
 
