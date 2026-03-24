@@ -12,6 +12,10 @@
   background: #ddb292;
 }
 
+section {
+  padding-bottom: 30%;
+
+}
 
 iframe {
   border: 1px solid black;
@@ -27,25 +31,36 @@ iframe {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(6, 1fr) ;
-  grid-auto-rows: 140px;
+  grid-template-columns: 1/5 1/5 1/5 1/5 1/5 ;
+  grid-template-rows: 8em 8em 8em 8em 8em 8em 8em 8em 8em 8em 8em 8em;
+
   padding: 18px;
-  row-gap: 1%;
-  column-gap:1%;
+  border-style: dotted;
+
+  grid-template-areas:
+  "vogue vogue wiki wiki damtuh"
+  "vogue vogue wiki wiki damtuh"
+  "vogue vogue wiki wiki damtuh"
+  "box6 chaan chaan box7 box8"
+  "box6 chaan chaan sorate sorate"
+  "ts ts te sorate sorate"
+  "ts ts te sorate sorate"
+  "kettl kettl harney harney harney"
+  "kettl kettl harney harney harney"
+  "smy sred sgreen sbrown smatcha"
+  "smy sred sgreen sbrown smatcha"
+  "tea hist yt ypl ymatcha"
+  "box9 hist yt ypl ymatcha"
+  "last last last last last";
+
 
 }
 
 @media (max-width: 1650px) {
   .grid { 
-      grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 140px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 140px;
   }
-  .vogue {
-    grid-column: 1 / 3;
-    grid-row: 1 / 3;
-
-}
 
 }
 
@@ -56,29 +71,11 @@ iframe {
 
 
 .heading {
-  font-size: 10vw;
-  justify-content: center;
+  font-size: 5vw;
+  text-align: center;
   font-family: "Beth Ellen", cursive;
+  padding: 5rem;
 }
-
-
-
-.last {
-grid-column: 1 / 5;
-}
-
-
-
-#one {
-  grid-column-start:1;
-  grid-column-end:3;
-}
-
-
-.source {
-
-}
-
 
 
 
