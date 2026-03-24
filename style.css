@@ -14,6 +14,7 @@
 
 section {
   margin-bottom: 30%;
+  margin-right: 5%;
 
 }
 
@@ -31,18 +32,18 @@ iframe {
 
 .grid {
   display: grid;
-  grid-template-columns: 1/5 1/5 1/5 1/5 1/5 ;
+  grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 8em 8em 8em 8em 8em 8em 8em 8em 8em 8em 8em 8em;
 
   padding: 18px;
   border-style: dotted;
 
   grid-template-areas:
-  "vogue vogue wiki wiki damtuh"
-  "vogue vogue wiki wiki damtuh"
-  "vogue vogue wiki wiki damtuh"
-  "chaan chaan chaan sorate sorate"
-  "chaan chaan chaan sorate sorate"
+  "vogue vogue wiki wiki sorate"
+  "vogue vogue wiki wiki sorate"
+  "vogue vogue wiki wiki sorate"
+  "chaan chaan chaan damtuh damtuh"
+  "chaan chaan chaan damtuh damtuh"
   "ts ts te sorate sorate"
   "ts ts te sorate sorate"
   "kettl kettl harney harney harney"
