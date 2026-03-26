@@ -32,29 +32,6 @@ section {
 }
 
 
-
-@media (max-width: 1250px) {
-  .grid { 
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 140px;
-  }
-}
-
-@media (max-width: 1050px) {
-  .grid { 
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 140px;
-  }
-}
-
-@media (max-width: 850px) {
-  .grid { 
-    grid-template-columns: repeat(1, 1fr);
-    grid-auto-rows: 140px;
-  }
-}
-
-
 iframe {
   border: 1px solid black;
   width: 100%;
@@ -79,18 +56,68 @@ iframe {
     "ts . te . kettl"
     "ts . te . kettl"
     ". arena smatcha smatcha ."
-    "sorate . . sred sred"
+    "sorate . . yt yt"
     "smy smy . harney ."
-    "tea . yt yt ."
-    ". hist hist . ."
+    ". tea tea sred sred"
+    ". hist hist hist ."
     "sbrown sbrown . list list"
     "ahist . ypl ypl ."
-    "last last last last last"
-    
-     ". . . . .";
+    "last last last last last";
 }
 
 
 iframe.vogue {
   grid-row: span 3;
+}
+
+
+
+@media (max-width: 1250px) {
+  .grid { 
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 140px;
+  }
+  .grid {
+  padding-left: 10em;
+  padding-right: 10em;
+  border-radius: dotted;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  padding: 18px;
+  grid-template-areas:
+    "ymatcha ymatcha ."
+    "sgreen vogue  . "
+    "sgreen vogue  . "
+     ". wiki wiki"
+    "chaan chaan pint "
+    "chaan chaan pint "
+    "damtuh damtuh damtuh"
+    "ts te kettl"
+    "ts te kettl"
+    "arena smatcha smatcha"
+    "sorate yt yt"
+    "smy . harney"
+    "tea tea . "
+    "hist hist hist"
+    "sbrown sbrown sbrown"
+    "sred list list"
+    "ahist . ."
+    ". ypl ypl"
+    "last last last";
+}
+}
+
+@media (max-width: 1050px) {
+  .grid { 
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 140px;
+  }
+}
+
+@media (max-width: 850px) {
+  .grid { 
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 140px;
+  }
 }
