@@ -15,31 +15,11 @@ section {
   margin-bottom: 30%;
 }
 
-@media (max-width: 1650px) {
+@media (max-width: 2650px) {
   .grid { 
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 140px;
-  }
-
-}
-
-
-.heading {
-  font-size: 5vw;
-  text-align: center;
-  font-family: "Beth Ellen", cursive;
-  padding: 5rem;
-}
-
-
-iframe {
-  border: 1px solid black;
-  width: 100%;
-  height: 50vh;
-}
-
-.grid {
-  padding-left: 10em;
+      padding-left: 10em;
   padding-right: 10em;
   border-radius: dotted;
   display: grid;
@@ -63,7 +43,27 @@ iframe {
     "sbrown sbrown . list list"
     "ahist . ypl ypl ."
     "last last last last last";
+
+  }
+
 }
+
+
+.heading {
+  font-size: 5vw;
+  text-align: center;
+  font-family: "Beth Ellen", cursive;
+  padding: 5rem;
+}
+
+
+iframe {
+  border: 1px solid black;
+  width: 100%;
+  height: 50vh;
+  
+}
+
 
 
 iframe.vogue {
@@ -80,7 +80,6 @@ iframe.vogue {
   .grid {
   padding-left: 10em;
   padding-right: 10em;
-  border-radius: dotted;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
@@ -108,16 +107,11 @@ iframe.vogue {
 }
 }
 
-@media (max-width: 1050px) {
-  .grid { 
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 140px;
-  }
-}
 
-@media (max-width: 850px) {
+@media (max-width: 950px) {
   .grid { 
-    grid-template-columns: repeat(1, 1fr);
-    grid-auto-rows: 140px;
+    display:flex;
+    flex-direction:column;
+
   }
 }
